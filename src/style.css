@@ -1,9 +1,26 @@
+@import '../node_modules/vanilla-framework/scss/build.scss';
 body {
   height: 100vh;
   color: #1f1f1f;
-  background: linear-gradient(to bottom, #bada55, #c0ffee);
+  
 }
-h1 {
-  color: hotpink;
-  font-family: cursive;
+header {
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 120px;
+  padding: 8px 0 8px 300px;
+  background: url(./images/logo_ceutaXL.png) left no-repeat;
+  background-size: 300px;
+  background-color: #314052;
+}
+header h1 {
+  font-weight: bold;
+}
+.nav {
+  float: left;
+}
+.nav li {
+  display: inline-block;
+  font-size: 14px;
+  padding-right: 22px;
 }
