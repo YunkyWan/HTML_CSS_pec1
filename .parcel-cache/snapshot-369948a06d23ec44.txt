@@ -84,7 +84,7 @@
 58D:\UOC\html_css\pec1\node_modules\weak-lru-cache\README.md133756605166969147 0
 56D:\UOC\html_css\pec1\node_modules\tslib\modules\index.js133756605159691619 0
 83D:\UOC\html_css\pec1\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest2.c133756605191925415 0
-25D:\UOC\html_css\pec1\dist133757094003699906 1
+25D:\UOC\html_css\pec1\dist133757132042009627 1
 64D:\UOC\html_css\pec1\node_modules\es-abstract\2020\RegExpExec.js133756629993867641 0
 59D:\UOC\html_css\pec1\node_modules\unbox-primitive\.eslintrc133756629983196500 0
 46D:\UOC\html_css\pec1\node_modules\spdx-correct133756629984519428 1
@@ -166,7 +166,7 @@
 71D:\UOC\html_css\pec1\node_modules\@swc\helpers\src\_define_property.mjs133756605213961295 0
 62D:\UOC\html_css\pec1\node_modules\tailwindcss\src\value-parser133757085846043191 1
 58D:\UOC\html_css\pec1\node_modules\semver\functions\sort.js133756605185573833 0
-36D:\UOC\html_css\pec1\src\header.html133757091646498851 0
+36D:\UOC\html_css\pec1\src\header.html133757124045966005 0
 58D:\UOC\html_css\pec1\node_modules\ansi-styles\package.json133756605157569579 0
 60D:\UOC\html_css\pec1\node_modules\css-select\lib\sort.js.map133756605189357511 0
 40D:\UOC\html_css\pec1\node_modules\@lezer133756605141986290 1
@@ -181,7 +181,7 @@
 96D:\UOC\html_css\pec1\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\convertor133756605189891715 1
 53D:\UOC\html_css\pec1\node_modules\@parcel\packager-js133756605184752547 1
 76D:\UOC\html_css\pec1\node_modules\chokidar\node_modules\glob-parent\index.js133757085841125649 0
-35D:\UOC\html_css\pec1\src\index.html133757093917194992 0
+35D:\UOC\html_css\pec1\src\index.html133757127002673881 0
 51D:\UOC\html_css\pec1\node_modules\wrap-ansi\license133756629981953595 0
 44D:\UOC\html_css\pec1\node_modules\concat-map133756629985184537 1
 56D:\UOC\html_css\pec1\node_modules\unbox-primitive\.nycrc133756629983966698 0
@@ -3161,7 +3161,7 @@
 63D:\UOC\html_css\pec1\node_modules\svgo\plugins\removeViewBox.js133756605194366753 0
 54D:\UOC\html_css\pec1\node_modules\semver\ranges\gtr.js133756605172189840 0
 69D:\UOC\html_css\pec1\node_modules\npm-run-all\bin\common\bootstrap.js133756629985245524 0
-47D:\UOC\html_css\pec1\dist\index.f2e8dc07.js.map133757094003679320 0
+47D:\UOC\html_css\pec1\dist\index.f2e8dc07.js.map133757132042009627 0
 78D:\UOC\html_css\pec1\node_modules\tailwindcss\lib\util\removeAlphaVariables.js133757085845591025 0
 65D:\UOC\html_css\pec1\node_modules\caniuse-lite\data\regions\IM.js133756605214228776 0
 88D:\UOC\html_css\pec1\node_modules\css-select\node_modules\domutils\lib\querying.d.ts.map133756605190833370 0
@@ -5155,7 +5155,7 @@
 59D:\UOC\html_css\pec1\node_modules\es-abstract\2021\clamp.js133756629988257318 0
 86D:\UOC\html_css\pec1\node_modules\caniuse-lite\data\features\keyboardevent-charcode.js133756605216819092 0
 56D:\UOC\html_css\pec1\node_modules\postcss-nested\LICENSE133757085840751793 0
-36D:\UOC\html_css\pec1\dist\index.html133757094003506015 0
+36D:\UOC\html_css\pec1\dist\index.html133757132041946377 0
 62D:\UOC\html_css\pec1\node_modules\@parcel\package-manager\test133756605190077635 1
 67D:\UOC\html_css\pec1\node_modules\domelementtype\lib\esm\index.d.ts133756605166185821 0
 61D:\UOC\html_css\pec1\node_modules\postcss-nested\package.json133757085841329466 0
@@ -5278,7 +5278,7 @@
 67D:\UOC\html_css\pec1\node_modules\postcss\lib\terminal-highlight.js133757085842918183 0
 56D:\UOC\html_css\pec1\node_modules\is-binary-path\license133757085841537082 0
 58D:\UOC\html_css\pec1\node_modules\postcss\lib\warn-once.js133757085842977980 0
-43D:\UOC\html_css\pec1\dist\index.ef41a359.js133757094003565813 0
+43D:\UOC\html_css\pec1\dist\index.ef41a359.js133757132041946377 0
 70D:\UOC\html_css\pec1\node_modules\@swc\helpers\_\_wrap_async_generator133756605200834139 1
 93D:\UOC\html_css\pec1\node_modules\csso\node_modules\css-tree\lib\syntax\node\AtrulePrelude.js133756605200834139 0
 58D:\UOC\html_css\pec1\node_modules\postcss\lib\warning.d.ts133757085843554740 0
@@ -11193,7 +11193,7 @@
 72D:\UOC\html_css\pec1\node_modules\@parcel\package-manager\lib\types.d.ts133756605193665908 0
 59D:\UOC\html_css\pec1\node_modules\@parcel\optimizer-swc\lib133756605177197631 1
 63D:\UOC\html_css\pec1\node_modules\@parcel\optimizer-swc\LICENSE133756605176649575 0
-43D:\UOC\html_css\pec1\dist\index.f2e8dc07.js133757094003565813 0
+43D:\UOC\html_css\pec1\dist\index.f2e8dc07.js133757132041956342 0
 59D:\UOC\html_css\pec1\node_modules\@parcel\optimizer-swc\src133756605177898993 1
 69D:\UOC\html_css\pec1\node_modules\@parcel\optimizer-svgo\node_modules133756605254755244 1
 60D:\UOC\html_css\pec1\node_modules\@parcel\optimizer-svgo\src133756605178183688 1
@@ -11967,6 +11967,6 @@
 65D:\UOC\html_css\pec1\node_modules\.bin\update-browserslist-db.cmd133756605254943394 0
 43D:\UOC\html_css\pec1\node_modules\.bin\yaml133757085846205883 0
 47D:\UOC\html_css\pec1\node_modules\.bin\yaml.ps1133757085846205883 0
-44D:\UOC\html_css\pec1\dist\index.87b44cb9.css133757094003565813 0
-48D:\UOC\html_css\pec1\dist\index.87b44cb9.css.map133757094003689489 0
-47D:\UOC\html_css\pec1\dist\index.ef41a359.js.map133757094003679320 0
+44D:\UOC\html_css\pec1\dist\index.87b44cb9.css133757132041946377 0
+48D:\UOC\html_css\pec1\dist\index.87b44cb9.css.map133757132042009627 0
+47D:\UOC\html_css\pec1\dist\index.ef41a359.js.map133757132042009627 0
