@@ -3,6 +3,12 @@ body {
   height: 100vh;
   color: #1b2939;
 }
+a, a:visited {
+  color: #1b2939;
+}
+.p-heading--5 {
+  font-size: 1.1rem;
+}
 .p-navigation {
   background-color: #1b2939;
 }
