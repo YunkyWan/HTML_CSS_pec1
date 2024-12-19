@@ -109,6 +109,27 @@ h1, h2, h3, h4, p {
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Sombra */
 }
 
+/* Animación de la hamburguesa del Menú */
+.menu-icon {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.line-1, .line-2, .line-3 {
+  transition: all 0.3s ease-in-out;
+}
+.menu-open .line-1 {
+  transform: translateY(5px) rotate(45deg);
+  transform-origin: center;
+}
+.menu-open .line-2 {
+  opacity: 0; /* Oculta la línea del medio */
+}
+.menu-open .line-3 {
+  transform: translateY(-5px) rotate(-45deg);
+  transform-origin: center;
+}
+
+
 /* Clip-path con la silueta de Ceuta */
 .clip-path-ceuta {
   display: flex;

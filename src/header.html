@@ -7,7 +7,13 @@
         </div>
         <ul class="p-navigation__items">
           <li class="p-navigation__item">
-            <button class="js-menu-button p-navigation__link">Menu</button>
+            <button class="js-menu-button p-navigation__link" aria-label="Abrir menú" onclick="toggleMenu()">
+              <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line class="line-1" x1="3" y1="6" x2="21" y2="6"></line>
+                <line class="line-2" x1="3" y1="12" x2="21" y2="12"></line>
+                <line class="line-3" x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            </button>            
           </li>
         </ul>
       </div>
@@ -29,3 +35,9 @@
       </nav>
     </div>
 </header>
+<script>
+  document.querySelector('.js-menu-button').addEventListener('click', function () {
+    const menuIcon = this.querySelector('.menu-icon');
+    menuIcon.classList.toggle('menu-open');
+  });
+</script>
