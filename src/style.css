@@ -9,6 +9,35 @@ a, a:visited {
 .p-heading--5 {
   font-size: 1.1rem;
 }
+header h1 {
+  font-weight: bold;
+}
+footer {
+  background-color: #1b2939;
+}
+footer a, footer a:visited {
+  color: white;
+}
+footer li {
+  display: inline;
+}
+footer nav {
+  height: 3rem;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+.footer-navigation {
+  margin-right: 2rem;
+}
+.footer-logo {
+  height: 100px;
+  background: url(./images/logo_ceutaXL.png) left no-repeat;
+  background-size: 240px;
+}
+
+/* Menú principal */
 .p-navigation {
   background-color: #1b2939;
 }
@@ -31,14 +60,6 @@ a, a:visited {
 }
 .p-navigation__tagged-logo a {
   background: none !important;
-}
-/* Efecto zoom en imágenes */
-.p-image-container__image {
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-.p-image-container__image:hover {
-  transform: scale(1.05); /* Zoom al 5% */
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Sombra */
 }
 
 /* Animación de enlaces */
@@ -79,6 +100,14 @@ nav a:hover::after {
 h1, h2, h3, h4, p {
   animation: fadeInUp 1s ease-in-out;
 }
+/* Efecto zoom en imágenes */
+.p-image-container__image {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.p-image-container__image:hover {
+  transform: scale(1.05); /* Zoom al 5% */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Sombra */
+}
 
 /* Clip-path con la silueta de Ceuta */
 .clip-path-ceuta {
@@ -99,35 +128,7 @@ h1, h2, h3, h4, p {
   transform: scale(1.05); /* Efecto de zoom */
 }
 
-
-header h1 {
-  font-weight: bold;
-}
-footer {
-  background-color: #1b2939;
-}
-footer a, footer a:visited {
-  color: white;
-}
-footer li {
-  display: inline;
-}
-footer nav {
-  height: 3rem;
-}
-footer ul {
-  margin: 0;
-  padding: 0;
-}
-.footer-navigation {
-  margin-right: 2rem;
-}
-.footer-logo {
-  height: 100px;
-  background: url(./images/logo_ceutaXL.png) left no-repeat;
-  background-size: 240px;
-}
-
+/* Slider portada */
 .slider-wrapper {
   margin: 1rem;
   position: relative;
@@ -176,4 +177,10 @@ footer ul {
   width: 100%;
   height: 100%;
   flex: 1 0 100%;
+}
+
+@media (max-width: 620px) {
+  body {
+    font-size: 1.2rem; /* Incrementa el tamaño para móviles */
+  }
 }

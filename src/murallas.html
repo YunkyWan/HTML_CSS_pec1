@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ceuta - La Perla del Mediterráneo</title>
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
 	  <link rel="stylesheet" href="style.css" />
@@ -12,14 +13,14 @@
     <main>
       <section class="p-section--hero">
         <div class="row">
-            <div class="col">
-              <div class="p-section--shallow">
-                <h1>Sitios de Interes</h1>
-                <h2>Murallas reales</h2>
-              </div>
+          <div class="col">
+            <div class="p-section--shallow">
+              <h1>Sitios de Interés</h1>
+              <h2>Murallas reales</h2>
             </div>
-        </div>
-        <div class="row--50-50-on-large"><div class="col">
+          </div>
+        </div>      
+        <div class="row--50-50-on-large row--75-25-on-medium"><div class="col">
           <div class="p-section--shallow">
             <p>Si hay un lugar de obligatoria visita en Ceuta, ese es el conjunto monumental de las Murallas Reales, declarado <b>Bien de Interés Cultural el 3 de julio de 1985.</b></p>
             <p>Además de ser uno de los puntos de interés turístico y cultural más importantes de la ciudad, ofrece una de las mejores vistas, con atardeceres inolvidables y vistas directas al estrecho de Gibraltar y al norte de Marruecos.</p>
@@ -27,12 +28,17 @@
             <p>En 1415, la ciudad es conquistada por los portugueses y, un siglo más tarde, estos modificarían las murallas. Los portugueses amplían la estructura de esta fortificación, haciendo las murallas más robustas y transformando el foso seco que habían dejado los árabes en un foso navegable. </p>
             <p>Después del sitio de Mulay Ismail, que duraría 33 años (1694-1727), Ceuta se ve en la necesidad de crear nuevas fortificaciones defensivas al otro lado del foso. Esta mejora convirtió a la ciudad en un territorio inexpugnable.</p>
           </div>
-        </div>
+        </div>  
         <div class="col">
-            <div class="p-image-container--3-2 is-cover">
-                <img class="p-image-container__image" src="./images/murallas-reales.jpg" alt="Murallas reales" title="Murallas reales">
-            </div>
-        </div>
+          <picture>
+            <source srcset="./images/foso-600w.gif, ./images/foso-1200w.gif 2x"       
+                    media="(min-width: 1036px)">
+            <source srcset="./images/foso-1-1-400w.gif, ./images/foso-1-1-800w.gif 2x" 
+                    media="(min-width: 620px)">
+            <img srcset="./images/foso-16-9-590w.gif, ./images/foso-16-9-1180w.gif 2x" 
+                alt="Foso Ceuta">
+          </picture>
+        </div>          
       </section>
       <include src="src/otros-sitios.html"></include>
       </main>

@@ -14,12 +14,12 @@
         <div class="row">
             <div class="col">
               <div class="p-section--shallow">
-                <h1>Sitios de Interes</h1>
+                <h1>Sitios de Interés</h1>
                 <h2>Playas y calas</h2>
               </div>
             </div>
         </div>
-        <div class="row--50-50-on-large"><div class="col">
+        <div class="row--50-50-on-large row--75-25-on-medium"><div class="col">
           <div class="p-section--shallow">
             <p>Ceuta tiene <b>21 km lineales de costa</b>, con un perfil variado de playas, calas y rocas, distribuidos en dos bahías. La bahía atlántica, al norte, se caracteriza por sus aguas frías y agitadas y la mediterránea, al sur, por aguas más templadas y tranquilas.</p>
             <p>En el extremo más oriental de la ciudad se encuentra el monte Hacho, rodeado por las dos aguas y testigo único del encuentro de las corrientes del Estrecho.</p>
@@ -27,9 +27,14 @@
           </div>
         </div>
         <div class="col">
-            <div class="p-image-container--3-2 is-cover">
-                <img class="p-image-container__image" src="./images/ribera.jpg" alt="Playa de la Rivera" title="Playa de la Rivera">
-            </div>
+          <picture>
+            <source srcset="./images/ribera-3-2-450w.jpg, ./images/ribera-3-2-960w.jpg 2x"       
+                    media="(min-width: 1036px)">
+            <source srcset="./images/ribera-1-1-480w.jpg, ./images/ribera-1-1-860w.jpg 2x" 
+                    media="(min-width: 620px)">
+            <img srcset="./images/ribera-960w.jpg, ./images/ribera-1440w.jpg 2x" 
+                alt="Playa de la Rivera" title="Playa de la Rivera">
+          </picture>
         </div>
       </section>
       <include src="src/otros-sitios.html"></include>

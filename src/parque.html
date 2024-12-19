@@ -14,12 +14,12 @@
         <div class="row">
             <div class="col">
               <div class="p-section--shallow">
-                <h1>Sitios de Interes</h1>
+                <h1>Sitios de Interés</h1>
                 <h2>Parque Marítimo del Medíterraneo</h2>
               </div>
             </div>
         </div>
-        <div class="row--50-50-on-large"><div class="col">
+        <div class="row--50-50-on-large row--75-25-on-medium"><div class="col">
           <div class="p-section--shallow">
             <p>El Parque Marítimo del Mediterráneo es un lugar idílico que no deja indiferente a nadie en su paso por Ceuta. Este pequeño paraíso ubicado en el centro de la ciudad está constituido por más de 56.000 m2 de espectaculares lagos azules de agua salada, cascadas y saltos de agua, con solárium rodeados de bellas palmeras.</p>
             <p>No es de extrañar que sea el principal atractivo turístico de la localidad y una de las mejores opciones de ocio para los propios ceutíes, pues contiene todos los ingredientes necesarios para disfrutar de una experiencia natural e inolvidable en un solo recinto.</p>
@@ -28,9 +28,14 @@
           </div>
         </div>
         <div class="col">
-            <div class="p-image-container--3-2 is-cover">
-                <img class="p-image-container__image" src="./images/parque.jpg" alt="Parque Marítimo del Medíterraneo" title="Parque Marítimo del Medíterraneo">
-            </div>
+          <picture>
+            <source srcset="./images/parque-3-2-450w.jpg, ./images/parque-3-2-960w.jpg 2x"       
+                    media="(min-width: 1036px)">
+            <source srcset="./images/parque-1-1-480w.jpg, ./images/parque-1-1-860w.jpg 2x" 
+                    media="(min-width: 620px)">
+            <img srcset="./images/parque-960w.jpg, ./images/parque-1440w.jpg 2x" 
+                alt="Parque Marítimo del Medíterraneo" title="Parque Marítimo del Medíterraneo">
+          </picture>
         </div>
       </section>
       <include src="src/otros-sitios.html"></include>

@@ -14,20 +14,25 @@
         <div class="row">
             <div class="col">
               <div class="p-section--shallow">
-                <h1>Sitios de Interes</h1>
+                <h1>Sitios de Interés</h1>
                 <h2>Sus miradores</h2>
               </div>
             </div>
         </div>
-        <div class="row--50-50-on-large"><div class="col">
+        <div class="row--50-50-on-large row--75-25-on-medium"><div class="col">
           <div class="p-section--shallow">
             <p>Ceuta, enclavada entre el mar Mediterráneo y el océano Atlántico, ofrece una serie de miradores espectaculares que permiten disfrutar de vistas panorámicas únicas. Entre los más destacados se encuentra el Mirador de Isabel II, desde donde se puede admirar el Estrecho de Gibraltar y las costas de Marruecos en días despejados. Otro imprescindible es el Mirador de San Antonio, situado en el Monte Hacho, con vistas tanto al puerto como a la ciudad amurallada. Estos puntos no solo ofrecen paisajes impresionantes, sino que también son lugares ideales para disfrutar de la naturaleza y de la historia que rodea a esta ciudad multicultural.</p>
           </div>
         </div>
         <div class="col">
-            <div class="p-image-container--3-2 is-cover">
-                <img class="p-image-container__image" src="./images/mirador.jpg" alt="Vistas de Ceuta" title="Vistas de Ceuta">
-            </div>
+          <picture>
+            <source srcset="./images/mirador-3-2-450w.jpg, ./images/mirador-3-2-960w.jpg 2x"       
+                    media="(min-width: 1036px)">
+            <source srcset="./images/mirador-1-1-480w.jpg, ./images/mirador-1-1-860w.jpg 2x" 
+                    media="(min-width: 620px)">
+            <img srcset="./images/mirador-960w.jpg, ./images/mirador-1440w.jpg 2x" 
+                alt="Vistas de Ceuta" title="Vistas de Ceuta">
+          </picture>
         </div>
       </section>
       <include src="src/otros-sitios.html"></include>
