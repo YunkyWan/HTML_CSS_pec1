@@ -3,19 +3,25 @@
   <head>
     <meta charset="utf-8"/>
     <title>Ceuta - La Perla del Mediterráneo</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
     <script type="module" src="app.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <include src="src/header.html"></include>>
+    <include src="src/header.html"></include>
     <main>
       <div class="p-equal-height-row has-divider-3">
-        <h1>Sitios de Interes</h1>
+        <h1>Sitios de Interés</h1>
         <h2>Encuentra todo sobre Ceuta en esta web.</h2>
         <div class="p-equal-height-row__col">
           <div class="p-equal-height-row__item">
             <div class="p-image-container--1-1-on-small p-image-container--square-on-medium p-image-container--3-2-on-large is-highlighted">
-              <a href="./murallas.html"><img class="p-image-container__image" src="./images/murallas-reales.jpg" alt="Murallas reales" title="Murallas reales"></a><!--width="250"-->
+              <a href="./murallas.html">
+                <img class="p-image-container__image"
+                srcset="./images/murrallas-1-1-480w.jpg 480w, ./images/murrallas-3-2-960w.jpg 960w, ./images/murrallas-1440w.jpg 1440w"
+                sizes="(min-width: 1036px) 320px, (min-width: 620px) 450px, (min-width: 480px) 619px, 480px"
+                src="./images/murrallas-3-2-450w.jpg" alt="Murallas reales" title="Murallas reales">
+              </a>
             </div>
           </div>
       
@@ -43,8 +49,13 @@
       
         <div class="p-equal-height-row__col">
           <div class="p-equal-height-row__item">
-            <div class="p-image-container--1-1-on-small p-image-container--square-on-medium p-image-container--3-2-on-large is-highlighted">
-              <a href="./parque.html"><img class="p-image-container__image" src="./images/parque.jpg" alt="Parque marítimo" title="Parque marítimo"></a>
+            <div class="">
+              <a href="./parque.html">
+                <img class="p-image-container__image"
+                srcset="./images/parque-1-1-480w.jpg 480w, ./images/parque-3-2-960w.jpg 960w, ./images/parque-1440w.jpg 1440w"
+                sizes="(min-width: 1036px) 320px, (min-width: 620px) 450px, (min-width: 480px) 619px, 480px"
+                src="./images/parque-480w.jpg" alt="Parque marítimo" title="Parque marítimo">                              
+              </a>
             </div>
           </div>
       
@@ -72,7 +83,12 @@
         <div class="p-equal-height-row__col">
           <div class="p-equal-height-row__item">
             <div class="p-image-container--1-1-on-small p-image-container--square-on-medium p-image-container--3-2-on-large is-highlighted">
-              <a href="./playas.html"><img class="p-image-container__image" src="./images/ribera.jpg" alt="Playas" title="Playas"></a>
+              <a href="./playas.html">
+                <img class="p-image-container__image"
+                srcset="./images/ribera-1-1-480w.jpg 480w, ./images/ribera-3-2-960w.jpg 960w, ./images/ribera-1440w.jpg 1440w"
+                sizes="(min-width: 1036px) 320px, (min-width: 620px) 450px, (min-width: 480px) 619px, 480px"
+                src="./images/ribera-480w.jpg" alt="Playas" title="Playas">                
+              </a>
             </div>
           </div>
       
@@ -100,7 +116,12 @@
         <div class="p-equal-height-row__col">
           <div class="p-equal-height-row__item">
             <div class="p-image-container--1-1-on-small p-image-container--square-on-medium p-image-container--3-2-on-large is-highlighted">
-              <a href="./miradores.html"><img class="p-image-container__image" src="./images/mirador.jpg" alt="Miradores" title="Miradores"></a>
+              <a href="./miradores.html">
+                <img class="p-image-container__image"
+                srcset="./images/mirador-1-1-480w.jpg 480w, ./images/mirador-3-2-960w.jpg 960w, ./images/mirador-1440w.jpg 1440w"
+                sizes="(min-width: 1036px) 320px, (min-width: 620px) 450px, (min-width: 480px) 619px, 480px"
+                src="./images/mirador-480w.jpg" alt="Miradores" title="Miradores">                
+              </a>
             </div>
           </div>
       
@@ -125,6 +146,7 @@
           </div>
         </div>
       </div>
-      </main>
+    </main>
+    <include src="src/footer.html"></include>
   </body>
 </html>

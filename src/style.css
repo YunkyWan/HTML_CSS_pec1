@@ -32,10 +32,101 @@ a, a:visited {
 .p-navigation__tagged-logo a {
   background: none !important;
 }
+/* Efecto zoom en imágenes */
+.p-image-container__image {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.p-image-container__image:hover {
+  transform: scale(1.05); /* Zoom al 5% */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+/* Animación de enlaces */
+nav a {
+  text-decoration: none;
+  position: relative;
+  color: #0073e6;
+  transition: color 0.3s ease;
+}
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #0073e6;
+  transition: width 0.3s ease-in-out;
+}
+nav a:hover {
+  color: #004080; /* Cambio de color */
+}
+nav a:hover::after {
+  width: 100%; /* Subrayado dinámico */
+}
+
+/* Animación de entrada de textos */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+h1, h2, h3, h4, p {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+/* Clip-path con la silueta de Ceuta */
+.clip-path-ceuta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px; /* Ajusta el tamaño del contenedor */
+  margin: 0 auto;
+}
+.clip-path-ceuta img {
+  width: 100%;
+  height: auto;
+  clip-path: polygon(73% 6%, 65% 5%, 54% 10%, 34% 15%, 15% 26%, 29% 30%, 28% 31%, 23% 33%, 28% 35%, 32% 36%, 32% 37%, 28% 39%, 23% 40%, 18% 41%, 16% 44%, 15% 47%, 13% 50%, 16% 51%, 18% 52%, 15% 54%, 12% 56%, 10% 59%, 9% 61%, 11% 63%, 8% 66%, 8% 66%, 7% 68%, 8% 70%, 10% 72%, 11% 74%, 12% 75%, 13% 78%, 15% 80%, 17% 81%, 12% 81%, 9% 83%, 8% 87%, 10% 88%, 13% 89%, 14% 89%, 16% 89%, 17% 92%, 19% 94%, 22% 95%, 21% 97%, 23% 97%, 25% 96%, 28% 97%, 31% 96%, 34% 97%, 37% 99%, 39% 99%, 42% 98%, 45% 97%, 42% 92%, 43% 91%, 44% 89%, 44% 89%, 46% 88%, 48% 87%, 50% 85%, 52% 85%, 58% 84%, 63% 84%, 66% 81%, 71% 80%, 75% 79%, 86% 78%, 88% 76%, 82% 73%, 72% 69%, 68% 61%, 63% 56%, 58% 55%, 52% 53%, 47% 54%, 44% 51%, 66% 38%, 63% 34%, 62% 30%, 69% 30%, 76% 29%, 83% 28%, 93% 27%, 98% 26%, 95% 16%, 78% 5%);
+  transition: transform 0.3s ease-in-out; /* Animación al pasar el cursor */
+}
+.clip-path-ceuta img:hover {
+  transform: scale(1.05); /* Efecto de zoom */
+}
+
+
 header h1 {
   font-weight: bold;
 }
-
+footer {
+  background-color: #1b2939;
+}
+footer a, footer a:visited {
+  color: white;
+}
+footer li {
+  display: inline;
+}
+footer nav {
+  height: 3rem;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+.footer-navigation {
+  margin-right: 2rem;
+}
+.footer-logo {
+  height: 100px;
+  background: url(./images/logo_ceutaXL.png) left no-repeat;
+  background-size: 240px;
+}
 
 .slider-wrapper {
   margin: 1rem;

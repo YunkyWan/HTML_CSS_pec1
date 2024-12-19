@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8"/>
     <title>Ceuta - La Perla del Mediterráneo</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
 	  <link rel="stylesheet" href="style.css" />
     <script type="module" src="app.js"></script>
     <script type="module" src="slider.js"></script>
@@ -14,12 +15,14 @@
         <h2>Bienvenidos a la web con información sobre Ceuta</h2>
         <section class="p-section">
           <div class="row">
-            <!-- we remove the bottom margin, as this separator is followed by highlighted separators in the grid below -->
             <hr class="p-rule u-no-margin--bottom">
           </div>
           <div class="row--25-75-on-large">
             <div class="col">
               <h3 class="p-muted-heading">Información</h3>
+              <div class="clip-path-ceuta">
+                <img src="./images/Ceuta-desde-aire.jpg" alt="Vista aérea de Ceuta" class="clip-image">
+              </div>              
             </div>
             <div class="col">
               <div class="row">
@@ -42,6 +45,7 @@
             </div>
           </div>
         </section>
+        
         <section class="slider-wrapper">
           <button class="slide-arrow" id="slide-arrow-prev">
             &#8249;
@@ -58,5 +62,6 @@
         </section>
       </div>
     </main>
+    <include src="src/footer.html"></include>
   </body>
 </html>
