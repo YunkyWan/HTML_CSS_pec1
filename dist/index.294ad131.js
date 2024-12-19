@@ -1,2 +1,0 @@
-!function(){let e;let t=document.getElementById("slides-container"),n=document.querySelectorAll(".slide"),l=document.getElementById("slide-arrow-prev"),c=document.getElementById("slide-arrow-next"),i=0;function d(){++i>=n.length&&(i=0),o(),u()}function o(){let e=n[0].clientWidth;t.scrollLeft=i*e}function r(){e=setInterval(d,5e3)}function u(){clearInterval(e),r()}c.addEventListener("click",d),l.addEventListener("click",function(){--i<0&&(i=n.length-1),o(),u()}),r()}();
-//# sourceMappingURL=index.294ad131.js.map
