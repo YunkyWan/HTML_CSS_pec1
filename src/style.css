@@ -16,7 +16,7 @@ footer {
   background-color: #1b2939;
 }
 footer a, footer a:visited {
-  color: white;
+  color: white !important;
 }
 footer li {
   display: inline;
