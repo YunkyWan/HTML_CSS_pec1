@@ -205,3 +205,9 @@ h1, h2, h3, h4, p {
     font-size: 1.2rem; /* Incrementa el tamaño para móviles */
   }
 }
+
+@font-face { 
+  font-family: 'Ubuntu'; 
+  src: url('./fonts/Ubuntu-Regular.woff2') format('woff2'); 
+  font-display: swap; 
+}
